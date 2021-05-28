@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/adina-training/network/google"
   version = "3.2.2"
   # insert required variables here
-  network_name = gaurav-network
+  network_name = "gaurav-network"
   project_id   = var.project
   subnets = [
     {
